@@ -11,11 +11,12 @@ export default function Hero() {
         Selamat Datang di TrDocx!
         </h1>
         <div className="flex flex-col gap-4 mb-16">
-          <h2 className="font-bold text-3xl md:text-5xl lg:text-3xl lg:leading-[4rem] text-green-900">
-          Waktunya untuk menjadi lebih tegas, lebih kuat, dan lebih efisien! Kami hadir untuk membantu Anda menyelesaikan tugas dengan fokus dan determinasi.
+          <h2 className="font-bold text-3xl md:text-5xl lg:text-3xl lg:leading-[3.50rem] text-green-900">
+          Waktunya untuk menjadi lebih tegas, lebih kuat, dan lebih efisien!
           </h2>
           <p className="text-gray-800 text-base md:text-xl lg:text-2xl">
-          Jangan biarkan apa pun menghalangi produktivitas Anda. Mari mulai sekarang! 😠💪
+          Kami hadir untuk membantu Anda
+          menyelesaikan tugas dengan fokus dan determinasi.Jangan biarkan apa pun menghalangi produktivitas Anda. Mari mulai sekarang! 😠💪
           </p>
         </div>
       </div>

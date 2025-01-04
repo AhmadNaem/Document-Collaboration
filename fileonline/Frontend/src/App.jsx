@@ -1,18 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import CreatePage from "./pages/CreatePage";
+import DetailPage from "./pages/DetailPage";
+import DoceditPage from "./pages/DoceditPage";
+import DocmanagePage from "./pages/DocmanagePage";
+import EditPage from "./pages/EditPage";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
-import DocmanagePage from "./pages/DocmanagePage";
-import DoceditPage from "./pages/DoceditPage";
-import CreatePage from "./pages/CreatePage";
 import SearchPage from "./pages/SearchPage";
-import EditPage from "./pages/EditPage";
-import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
+      <Route path="/logout" element={<LoginPage />}></Route>
       <Route path="/login" element={<LoginPage />}></Route>
       <Route path="/manage" element={<DocmanagePage />}></Route>
       <Route path="/manage/keyword?" element={<SearchPage />}></Route>

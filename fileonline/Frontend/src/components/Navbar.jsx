@@ -3,7 +3,7 @@ import {
   FolderIcon,
   HomeIcon,
   MagnifyingGlassIcon,
-  XMarkIcon,
+  XMarkIcon
 } from "@heroicons/react/24/outline";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -22,7 +22,7 @@ export default function Navbar() {
     // alert("search")
   };
   return (
-    <header className="bg-green-3 relative">
+    <header className="bg-red-1 relative">
       <nav className="container mx-auto px-8 py-6">
         <div className="flex items-center justify-between">
           <Link to={"/"}>
@@ -40,6 +40,12 @@ export default function Navbar() {
                   Manajemen Dokumen
                 </span>
               </Link>
+              <Link to={"/logout"} className="flex gap-3">
+              < span className="h-6 w-6 text-gray-800" />
+              <span className="text-gray-800 hover:underline">
+                logout
+              </span>
+            </Link>
             </div>
           </div>
           <form className="relative hidden lg:block" onSubmit={handleSubmit}>
@@ -78,6 +84,12 @@ export default function Navbar() {
               <FolderIcon className="h-6 w-6 text-gray-800" />
               <span className="text-gray-800 hover:underline">
                 Manajemen Dokumen
+              </span>
+            </Link>
+            <Link to={"/logout"} className="flex gap-3">
+              <span className="h-6 w-6 text-gray-800" />
+              <span className="text-gray-800 hover:underline">
+                logout
               </span>
             </Link>
             <form className="relative" onSubmit={handleSubmit}>
