@@ -1,9 +1,9 @@
 # Document-Collaboration
-Kelompok 16
-2201020106 - Ahmad Bahrun Naim
-2201020112 - Muhammad Aldouri
-2201020113 - Muhammad Putra
-2201020116 - Ronaldo Simbolon
+# Kelompok 16
+# 2201020106 - Ahmad Bahrun Naim
+# 2201020112 - Muhammad Aldouri
+# 2201020113 - Muhammad Putra
+# 2201020116 - Ronaldo Simbolon
 
 Project ini dibuat untuk memenuhi tugas Final Project mata kuliah Sistem Terdistribusi.
 Setup
